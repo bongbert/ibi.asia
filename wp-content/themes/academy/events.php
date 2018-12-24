@@ -14,8 +14,8 @@
 			<div class="row">
 				<div class="col-12 wow zoomIn">
 					<div class="section-title">
-						<h2><?php otherSections('event_title'); ?></h2>
-						<p><?php otherSections('event_description'); ?></p>
+						<h2>Upcoming <span>Events</span></h2>
+						<p>Mauris at varius orci. Vestibulum interdum felis eu nisl pulvinar, quis ultricies nibh. Sed ultricies ante vitae laoreet sagittis. In pellentesque viverra purus. Sed risus est, molestie nec hendrerit hendreri </p>
 					</div>
 				</div>
 			</div>
@@ -39,7 +39,7 @@
 									<span><i class="fa fa-calendar"></i><?php the_field('event_date'); ?></span>
 									<span><i class="fa fa-clock-o"></i><?php the_field('starting_time'); ?> - <?php the_field('ending_time'); ?></span>
 								</div>
-								<h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
+								<h4><a href="event-single.html"><?php the_title(); ?></a></h4>
 								<p><?= wp_trim_words( get_the_content(), 10, '...' ); ?></p>
 								<!-- <div class="button">
 									<a href="event-single.html" class="btn">Join Event</a>

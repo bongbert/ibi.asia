@@ -14,8 +14,8 @@
 			<div class="row">
 				<div class="col-12 wow zoomIn">
 					<div class="section-title">
-						<h2>Our Awesome <span>Professor</span></h2>
-						<p>Mauris at varius orci. Vestibulum interdum felis eu nisl pulvinar, quis ultricies nibh. Sed ultricies ante vitae laoreet sagittis. In pellentesque viverra purus. Sed risus est, molestie nec hendrerit hendreri </p>
+						<h2><?php otherSections('professor_title'); ?></h2>
+						<p><?php otherSections('professor_description'); ?></p>
 					</div>
 				</div>
 			</div>

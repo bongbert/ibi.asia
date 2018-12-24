@@ -35,3 +35,19 @@ function theme_slug_widgets_init() {
       )
   );
 }
+
+function otherSections($field) {
+  $args = array(
+    'post_type' => 'others',
+    'posts_per_page' => 1,
+    'post_status' => 'publish'
+  );
+  $query = new WP_Query($args);
+
+  if ($query->have_posts()) :
+    while ($query->have_posts()) : $query->the_post();
+      the_field($field);
+    endwhile;
+    wp_reset_query();
+  endif;
+}

@@ -12,7 +12,7 @@
 
 		<?php include('teams_professor.php'); ?>
 		
-		<?php include('testimonials.php'); ?>
+		<?php //include('testimonials.php'); ?>
 
 		<?php include('events.php'); ?>
 

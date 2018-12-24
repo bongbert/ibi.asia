@@ -4,33 +4,23 @@
 			<div class="footer-top">
 				<div class="container">
 					<div class="row">
-						<div class="col-lg-3 col-md-6 col-12">
+						<div class="col-lg-4 col-md-6 col-12">
 							<!-- About -->
 							<div class="single-widget about">
 								<div class="logo"><a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/logo2.png" alt="#"></a></div>
-								<p>Vivamus volutpat eros pulvinar velit laoreet, sit amet egestas erat dignissim. Lorem ipsum dolor sit amet, consectetur</p>
+								<?php if(!empty(otherSections('footer_description'))) : ?>
+									<p><?php otherSections('footer_description'); ?></p>
+								<?php endif; ?>
 								<ul class="list">
-									<li><i class="fa fa-phone"></i>Phone: +123 456-7890 </li>
-									<li><i class="fa fa-envelope"></i>Email: <a href="mailto:info@youremail.com">Info@youremail.com</a></li>
-									<li><i class="fa fa-map-o"></i>Address: 211 Ronad, California, Us</li>
+									<li><i class="fa fa-phone"></i>Phone: <?php otherSections('footer_phone'); ?> </li>
+									<li><i class="fa fa-envelope"></i>Email: 
+										<a href="mailto:<?php otherSections('footer_email'); ?>"><?php otherSections('footer_email'); ?></a>
+									</li>
+									<li><i class="fa fa-map-o"></i>Address: <?php otherSections('footer_email'); ?></li>
+									
 								</ul>
 							</div>
 							<!--/ End About -->
-						</div>
-						<div class="col-lg-2 col-md-6 col-12">
-							<!-- Useful Links -->
-							<div class="single-widget useful-links">
-								<h2>Useful Links</h2>
-								<ul>
-									<li><a href="#"><i class="fa fa-angle-right"></i>Home</a></li>
-									<li><a href="#"><i class="fa fa-angle-right"></i>About Us</a></li>
-									<li><a href="#"><i class="fa fa-angle-right"></i>Courses</a></li>
-									<li><a href="#"><i class="fa fa-angle-right"></i>Events</a></li>
-									<li><a href="#"><i class="fa fa-angle-right"></i>Blogs</a></li>
-									<li><a href="#"><i class="fa fa-angle-right"></i>Contact</a></li>
-								</ul>
-							</div>
-							<!--/ End Useful Links -->
 						</div>
 						<div class="col-lg-4 col-md-6 col-12">
 							<!-- Latest News -->
@@ -56,7 +46,7 @@
 							</div>
 							<!--/ End Latest News -->
 						</div>
-						<div class="col-lg-3 col-md-6 col-12">
+						<div class="col-lg-4 col-md-6 col-12">
 							<!-- Newsletter -->
 							<div class="single-widget newsletter">
 								<h2>Subscribe Newsletter</h2>
@@ -93,7 +83,7 @@
 										<!-- End Social -->
 										<!-- Copyright -->
 										<div class="copyright">
-											<p>© Copyright 2018 <a href="#">LearnEdu</a>. All Rights Reserved</p>
+											<p>© Copyright 2018 <a href="#">International Business Institution</a>. All Rights Reserved</p>
 										</div>
 										<!--/ End Copyright -->
 									</div>

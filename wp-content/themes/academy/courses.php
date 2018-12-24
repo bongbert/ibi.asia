@@ -14,8 +14,8 @@
 			<div class="row">
 				<div class="col-12 wow zoomIn">
 					<div class="section-title">
-						<h2>Popular <span>Courses</span> We Offer</h2>
-						<p>Mauris at varius orci. Vestibulum interdum felis eu nisl pulvinar, quis ultricies nibh. Sed ultricies ante vitae laoreet sagittis. In pellentesque viverra purus. Sed risus est, molestie nec hendrerit hendreri </p>
+						<h2><?php otherSections('course_title'); ?></h2>
+						<p><?php otherSections('course_description'); ?></p>
 					</div>
 				</div>
 			</div>
@@ -38,13 +38,13 @@
 								<h4><a href="<?php the_permalink();?>"><span>Commerce</span><?php the_title(); ?>t</a></h4>
 								<?= wp_trim_words( get_the_content(), 10, '...' ); ?>
 							</div>
-							<div class="course-meta">
+							<!-- <div class="course-meta">
 								<div class="meta-left">
 									<span><i class="fa fa-users"></i>36 Seat</span>
 									<span><i class="fa fa-clock-o"></i>2 Years</span>
 								</div>
 								<span class="price">$350</span>
-							</div>
+							</div> -->
 						</div>
 						<!--/ End Single Course -->
 						<?php endwhile; wp_reset_postdata(); ?>

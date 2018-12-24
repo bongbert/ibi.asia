@@ -62,15 +62,15 @@
 						<div class="col-lg-8 col-12">
 							<!-- Contact -->
 							<ul class="content">
-								<li><i class="fa fa-phone"></i>123-456-789</li>
-								<li><a href="mailto:info@yourdomain.com"><i class="fa fa-envelope-o"></i>contact@yourdomain.com</a></li>
-								<li><i class="fa fa-clock-o"></i>Opening: 10:00am - 5:00pm</li>
+								<li><i class="fa fa-phone"></i><?php otherSections('phone_number'); ?></li>
+								<li><a href="<?php otherSections('email_address'); ?>"><i class="fa fa-envelope-o"></i><?php otherSections('email_address'); ?></a></li>
+								<li><i class="fa fa-clock-o"></i><?php otherSections('open_hour'); ?></li>
 							</ul>
 							<!-- End Contact -->
 						</div>
 						<div class="col-lg-4 col-12">
 							<!-- Social -->
-							<ul class="social">
+							<!-- <ul class="social">
 								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
 								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
 								<li><a href="#"><i class="fa fa-google-plus "></i></a></li>
@@ -78,7 +78,7 @@
 								<li><a href="#"><i class="fa fa-behance"></i></a></li>
 								<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
 								<li><a href="#"><i class="fa fa-youtube"></i></a></li>
-							</ul>
+							</ul> -->
 							<!-- End Social -->
 						</div>
 					</div>
@@ -91,14 +91,14 @@
 					<div class="row">
 						<div class="col-lg-3 col-md-3 col-12">
 							<div class="logo">
-								<a href="index-2.html"><img src="<?php bloginfo('template_directory'); ?>/images/logo.png" alt="#"></a>
+								<a href="<?= home_url(); ?>"><img src="<?php bloginfo('template_directory'); ?>/images/logo.png" alt="#"></a>
 							</div>
 							<div class="mobile-menu"></div>
 						</div>
 						<div class="col-lg-9 col-md-9 col-12">
 							<!-- Header Widget -->
 							<div class="header-widget">
-								<img src="http://placehold.jp/700x50.png">
+								<img src="http://placehold.jp/700x120.png">
 							</div>
 							<!--/ End Header Widget -->
 						</div>

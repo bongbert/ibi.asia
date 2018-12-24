@@ -14,8 +14,8 @@
 			<div class="row">
 				<div class="col-12 wow zoomIn">
 					<div class="section-title">
-						<h2>We Provide <span>Educational</span> Solutions</h2>
-						<p>Mauris at varius orci. Vestibulum interdum felis eu nisl pulvinar, quis ultricies nibh. Sed ultricies ante vitae laoreet sagittis. In pellentesque viverra purus. Sed risus est, molestie nec hendrerit hendreri </p>
+						<h2><?php otherSections('edu_solution_title'); ?></h2>
+						<p><?php otherSections('edu_solution_des'); ?></p>
 					</div>
 				</div>
 			</div>
@@ -40,7 +40,7 @@
 				<?php endwhile; wp_reset_postdata(); ?>
 			</div>
 		</div>
-	<center><a class="btn btn-primary" href="#">View More</a></center>
+	<center><a class="margin-top btn btn-primary" href="#">View More</a></center>
 	</section>
 	<!-- End Features -->
 <?php endif; ?>

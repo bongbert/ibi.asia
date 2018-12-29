@@ -1,5 +1,8 @@
 <?php
 
+add_theme_support( 'title-tag' );
+
+
 function register_my_menu() {
   register_nav_menu( 'primary', __( 'Primary', 'theme-slug' ) );
   register_nav_menu( 'bottom_nav', __( 'Bottom Nav', 'theme-slug' ) );

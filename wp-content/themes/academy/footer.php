@@ -7,7 +7,7 @@
 						<div class="col-lg-4 col-md-6 col-12">
 							<!-- About -->
 							<div class="single-widget about">
-								<div class="logo"><a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/logo2.png" alt="#"></a></div>
+								<!-- <div class="logo"><a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/logo2.png" alt="#"></a></div> -->
 								<?php if(!empty(otherSections('footer_description'))) : ?>
 									<p><?php otherSections('footer_description'); ?></p>
 								<?php endif; ?>

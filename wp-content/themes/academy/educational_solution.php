@@ -40,7 +40,7 @@
 				<?php endwhile; wp_reset_postdata(); ?>
 			</div>
 		</div>
-	<center><a class="margin-top btn btn-primary" href="#">View More</a></center>
+	<center><a class="margin-top btn btn-primary" href="<?= home_url('education-solution'); ?>">View More</a></center>
 	</section>
 	<!-- End Features -->
 <?php endif; ?>

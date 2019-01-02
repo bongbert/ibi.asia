@@ -1916,6 +1916,10 @@ width: 100%;
 	font-size: 20px;
 
 }
+.blog-detail ul {
+	margin-left : 20px;
+	padding-left: 20px;
+}
 .blog.b-archives.single .b-gallery{}
 .blog.b-archives.single .b-gallery .owl-nav div{
 	background:#fff;

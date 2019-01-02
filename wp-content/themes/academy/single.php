@@ -38,7 +38,7 @@
 								<p>Your email address will not be published. Required fields are marked *</p>
 							</div>
 							<!-- Form -->
-							<form class="form" action="#">
+							<!-- <form class="form" action="#">
 								<div class="row">
 									<div class="col-lg-6 col-12">
 										<div class="form-group">
@@ -73,7 +73,7 @@
 										</div>
 									</div>
 								</div>
-							</form>
+							</form> -->
 							<!--/ End Form -->
 						</div>
 					</div>

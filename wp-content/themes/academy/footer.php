@@ -22,30 +22,7 @@
 							</div>
 							<!--/ End About -->
 						</div>
-						<div class="col-lg-4 col-md-6 col-12">
-							<!-- Latest News -->
-							<div class="single-widget latest-news">
-								<h2>Latest Posts</h2>
-								<div class="news-inner">
-									<div class="single-news">
-										<img src="<?php bloginfo('template_directory'); ?>/images/blog/blog1.jpg" alt="#">
-										<h4><a href="blog-single.html">Our Teacher the best Link to Savc</a></h4>
-										<p>Nunc purus orci, blandit condimentum rhoncus vels</p>
-									</div>
-									<div class="single-news">
-										<img src="<?php bloginfo('template_directory'); ?>/images/blog/blog2.jpg" alt="#">
-										<h4><a href="blog-single.html">Student Have the best Link to Ronae</a></h4>
-										<p>Nunc purus orci, blandit condimentum rhoncus vels</p>
-									</div>
-									<div class="single-news">
-										<img src="<?php bloginfo('template_directory'); ?>/images/blog/blog3.jpg" alt="#">
-										<h4><a href="blog-single.html">Sekker the best Link to build</a></h4>
-										<p>Nunc purus orci, blandit condimentum rhoncus vele</p>
-									</div>
-								</div>
-							</div>
-							<!--/ End Latest News -->
-						</div>
+						<?php include(TEMPLATEPATH . '/page-template/footer_latest_post.php'); ?>
 						<div class="col-lg-4 col-md-6 col-12">
 							<!-- Newsletter -->
 							<div class="single-widget newsletter">

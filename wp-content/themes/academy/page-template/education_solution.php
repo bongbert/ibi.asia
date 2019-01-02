@@ -57,7 +57,6 @@
 						<!--/ End Single Event -->
 					</div>
 					<?php endwhile; wp_reset_postdata(); ?>
-
 				</div>
 				<div class="row">
 				<div class="navigation paging-navigation" role="navigation">

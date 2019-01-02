@@ -24,7 +24,7 @@
 				<img src="<?= $image['url']; ?>" alt="">
 			</div>
 			<div class="post-info">
-				<h4><a href="#"><?php the_title(); ?></a></h4>
+				<h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
 				<span><i class="fa fa-calendar"></i><?php the_field('date_event'); ?></span>
 			</div>
 		</div>

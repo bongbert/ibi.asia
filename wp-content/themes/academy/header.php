@@ -12,7 +12,7 @@
 		<!-- Title -->
 		<title><?php wp_title('|',true,'right'); ?> <?php bloginfo('name'); ?></title>
 		<!-- Favicon -->
-		<link rel="icon" type="image/png" href="<?php bloginfo('template_directory'); ?>/images/favicon.png">
+		<link rel="icon" type="image/png" href="<?php bloginfo('template_directory'); ?>/images/logo.png">
 		<!-- Web Font -->
 		<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
 
@@ -31,7 +31,7 @@
         <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/slicknav.min.css">
         <!-- Magnific Popup -->
 		<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/magnific-popup.css">
-		
+		<link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
 		<!-- Learedu Stylesheet -->
         <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/normalize.css">
         <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
@@ -89,13 +89,20 @@
 			<div class="header-inner">
 				<div class="container">
 					<div class="row">
-						<div class="col-lg-3 col-md-3 col-12">
+						<div class="col-lg-2 col-md-2 col-12 col-offset-6 centered">
 							<div class="logo">
 								<a href="<?= home_url(); ?>"><img src="<?php bloginfo('template_directory'); ?>/images/logo.png" alt="#"></a>
 							</div>
 							<div class="mobile-menu"></div>
 						</div>
-						<div class="col-lg-9 col-md-9 col-12">
+						<div class="col-lg-2 col-md-2 col-12 mobile-hidden">
+							<div class="slogen">
+								<h1>International 
+									<span>Business</span> Institute
+								</h1>
+							</div>
+						</div>
+						<div class="col-lg-8 col-md-8 col-12">
 							<!-- Header Widget -->
 							<div class="header-widget">
 								<img src="http://placehold.jp/700x120.png">

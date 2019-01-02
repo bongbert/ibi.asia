@@ -2902,3 +2902,20 @@ width: 100%;
 .margin-top {
 	margin-top: 30px;
 }
+.slogen {
+	line-height: 30px;
+	color: yellow;
+}
+.slogen h1 {
+    font-size: 28px;
+    margin-top: 40px;
+    margin-left: -60px;
+    font-family: 'Staatliches', cursive;
+    text-shadow: 2px 2px #171717;
+    
+}
+.slogen h1 span {
+	color: red;
+	display: block;
+	text-shadow: none;
+}

@@ -2873,6 +2873,7 @@ width: 100%;
 	font-size: 15px;
 	color: #fff;
 	text-transform: capitalize;
+	text-align: center;
 }
 .footer .copyright a:hover{
 	color:#fff;

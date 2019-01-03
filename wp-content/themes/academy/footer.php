@@ -36,6 +36,8 @@
 								</div>
 							</div>
 							<!--/ End Newsletter -->
+							<a href='https://bachelorthesiswritingservice.com/'>Let write Bachelor Thesis</a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=d01992a4c5ac7d302241d889457522580c844dcd'></script>
+							<script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/464019/t/1"></script>
 						</div>
 					</div>
 				</div>
@@ -59,7 +61,7 @@
 										</ul>
 										<!-- End Social -->
 										<!-- Copyright -->
-										<div class="copyright">
+										<div class="copyright text-center">
 											<p>© Copyright 2018 <a href="#">International Business Institution</a>. All Rights Reserved</p>
 										</div>
 										<!--/ End Copyright -->

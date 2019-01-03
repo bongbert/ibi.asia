@@ -1,7 +1,8 @@
 <?php 
 	$args = array(
 		'post_type' => 'education_solution',
-		'post_status' => 'publish'
+		'post_status' => 'publish',
+		'posts_per_page' => 3
 	);
 	$query = new WP_Query($args);
 

@@ -6,23 +6,34 @@ Description: International Business Intitution provides all educational with bus
 Version:	1.0
 */
 
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
 .header{
-	background-color:#ee3623;
+	background-color:#ffffff;
+}
+.header-inner {
+	border-bottom: 1px solid #fff;
 }
 .header .navbar-collapse{
 	padding:0;
 }
 /* Topbar */
 .header .topbar {
-	background-color: #252525;
-	padding: 12px 0px;
+	background-color: #ee3623;
+	padding: 5px 0px;
+    box-shadow: 0px 1px 1px #fedd00;
+}
+.header .content li i {
+	color: #fddd00 !important;
 }
 .header .content {
 	float: left;
 }
 .header .content li {
 	display: inline-block;
-	color: #ccc;
+	color: #000;
 	margin-right: 10px;
 	font-weight:500;
 }
@@ -35,7 +46,7 @@ Version:	1.0
 	margin-right: 5px;
 }
 .header .content li a {
-	color: #ccc;
+	color: #000;
 }
 .header .social{
 	float:right;
@@ -57,7 +68,7 @@ Version:	1.0
 	margin-top: 34px;
 }
 .logo {
-	width: 120px;
+	width: 110px;
 	margin-bottom: 20px;
 }
 .header .header-widget {
@@ -108,8 +119,9 @@ Version:	1.0
 	color:#000;
 }
 .header .header-menu {
-	background: #f6f6f6;
+	background: #ee3623;
 	z-index: 3333;
+	border-bottom: 1px solid #fff;
 }
 .header .navbar {
 	background: none;
@@ -141,6 +153,7 @@ Version:	1.0
 .header .nav li:hover a, 
 .header .nav li.active a {
 	color: #fff;
+	background: #ccc;
 }
 .header .nav li a i {
 	margin-left: 5px;
@@ -2908,23 +2921,45 @@ width: 100%;
 }
 
 .margin-top {
-	margin-top: 30px;
+	margin-top: 35px;
 }
 .slogen {
-	line-height: 30px;
-	color: yellow;
+	line-height: 42px;
+    margin-left: -70px;
 }
 .slogen h1 {
-	color: #fff;
-    font-size: 28px;
+	color: #ee3623;
+    font-size: 26px;
     margin-top: 40px;
-    margin-left: -60px;
-    font-family: 'Staatliches', cursive;
-    text-shadow: 2px 2px #171717;
+    font-family: 'Moul', cursive;
+    text-shadow: 0px 3px #060606;
+    letter-spacing: -1.5px;
     
 }
-.slogen h1 span {
-	color: #fddd00;
-    display: block;
-    letter-spacing: 8px;
+.text-slogan {
+ 	font-family: 'Staatliches', cursive;
+    font-size: 28px;
+    margin-top: 10px;
+    color: #ee3623;
+    text-shadow: 0px 2px #191919;
+    font-weight: bold;
+}
+
+.form-search {
+	line-height: 150px;
+}
+input#search {
+    border-right: none;
+    margin-top: 0px;
+    border-radius: 2px;
+    outline: none;
+    border: 1px solid #ccc;
+    padding: 0 5px;
+    height: 35px !important;
+}
+.btn-search {
+    margin-left: -30px;
+    border: none;
+    padding: 4px;
+    background: none;
 }

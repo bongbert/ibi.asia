@@ -384,4 +384,11 @@
 .mobile-hidden {
 	display: none;
 }
+.form-search {
+	width: 100%;
+	line-height: 0;
+	margin-top: 10px;
+}
+input#search {    
+    width: 99%;
 }

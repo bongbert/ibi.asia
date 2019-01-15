@@ -1,8 +1,13 @@
 <?php 
+	// Template name: Team Professor
+
+	get_header();
+?>
+
+<?php 
 	$args = array(
 		'post_type' => 'professor',
 		'post_status' => 'publish',
-		'posts_per_page' => 4
 	);
 	$query = new WP_Query($args);
 
@@ -54,8 +59,9 @@
 					</div>
 				<?php endwhile; wp_reset_postdata(); ?>
 			</div>
-		</div>
-		<center><a class="margin-top btn btn-primary" href="<?= home_url('team-professor'); ?>">View More</a></center>
+		</div>		
 	</section>
 	<!--/ End Team -->
 <?php endif; ?>
+
+<?php get_footer(); ?>

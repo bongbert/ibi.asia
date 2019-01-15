@@ -24,8 +24,8 @@
 			<div class="row">
 				<div class="col-12">
 					<div class="section-title">
-						<h2>Upcoming <span>Events</span></h2>
-						<p>Mauris at varius orci. Vestibulum interdum felis eu nisl pulvinar, quis ultricies nibh. Sed ultricies ante vitae laoreet sagittis. In pellentesque viverra purus. Sed risus est, molestie nec hendrerit hendreri </p>
+						<h2><?php the_title(); ?></h2>
+						<p><?= wp_trim_words( get_the_content(), 10, '...' ); ?></p>
 					</div>
 				</div>
 			</div>

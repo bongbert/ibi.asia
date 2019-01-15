@@ -52,6 +52,7 @@
 				</div>
 			</div>
 		</div>
+		<center><a class="margin-top btn btn-primary" href="<?= home_url('news-events'); ?>">View More</a></center>
 	</section>
 	<!--/ End Events -->
 

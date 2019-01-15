@@ -7,7 +7,7 @@ Version:	1.0
 */
 
 .header{
-	background-color:#fff;
+	background-color:#ee3623;
 }
 .header .navbar-collapse{
 	padding:0;
@@ -2883,6 +2883,9 @@ width: 100%;
 ===============================*/
 
 /*Pagination*/
+.page-numbers {
+	list-style: none;
+}
 .navigation {
     text-align: center;
     margin: 49px auto 0 auto;
@@ -2912,6 +2915,7 @@ width: 100%;
 	color: yellow;
 }
 .slogen h1 {
+	color: #fff;
     font-size: 28px;
     margin-top: 40px;
     margin-left: -60px;
@@ -2920,7 +2924,7 @@ width: 100%;
     
 }
 .slogen h1 span {
-	color: red;
-	display: block;
-	text-shadow: none;
+	color: #fddd00;
+    display: block;
+    letter-spacing: 8px;
 }

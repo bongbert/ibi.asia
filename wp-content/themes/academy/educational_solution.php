@@ -22,8 +22,9 @@
 			</div>
 			<div class="row">
 				<?php 
-				$i = 0;
+					$i = 0;
 					while ($query->have_posts()) : $query->the_post();
+					$count_posts = wp_count_posts();
 						$image = get_field('images');
 						$i = $i + 0.2;
 				?>
@@ -41,7 +42,7 @@
 				<?php endwhile; wp_reset_postdata(); ?>
 			</div>
 		</div>
-	<center><a class="margin-top btn btn-primary" href="<?= home_url('education-solution'); ?>">View More</a></center>
+		<center><a class="margin-top btn btn-primary" href="<?= home_url('education-solution'); ?>">View More</a></center>
 	</section>
 	<!-- End Features -->
 <?php endif; ?>

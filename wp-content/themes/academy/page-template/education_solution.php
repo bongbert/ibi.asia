@@ -9,7 +9,7 @@
 		$args = array(
 			'post_type' => 'education_solution',
 			'post_status' => 'publish',
-			'posts_per_page' => 3,
+			'posts_per_page' => 9,
 			'paged' => get_query_var('paged') ? get_query_var('paged') : 1 
 		);
 
@@ -47,8 +47,8 @@
 									<span><i class="fa fa-calendar"></i>05 June 2018</span>
 									<span><i class="fa fa-clock-o"></i>12.00-5.00PM</span>
 								</div>
-								<h4><a href="<?php the_permalink(); ?>">Opening Day Reception ceremony</a></h4>
-								<p>Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor incididunt</p>
+								<h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
+								<p><?= wp_trim_words( get_the_content(), 10, '...' ); ?></p>
 								<div class="button">
 									<a href="<?php the_permalink(); ?>" class="btn">Details</a>
 								</div>
@@ -59,24 +59,24 @@
 					<?php endwhile; wp_reset_postdata(); ?>
 				</div>
 				<div class="row">
-				<div class="navigation paging-navigation" role="navigation">
-					<ul class="page-numbers">
-						<li>
-							<span>
-								<?php 
-									$big = 999999999; // need an unlikely integer
-									 echo paginate_links( array(
-									    'base' => str_replace( $big, '%#%', get_pagenum_link( $big ) ),
-									    'format' => '?paged=%#%',
-									    'current' => max( 1, get_query_var('paged') ),
-									    'total' => $query->max_num_pages
-									) );
-								?>
-							</span>
-						</li>
-					</ul>
+					<div class="navigation paging-navigation" role="navigation">
+						<ul class="page-numbers">
+							<li>
+								<span>
+									<?php 
+										$big = 999999999; // need an unlikely integer
+										 echo paginate_links( array(
+										    'base' => str_replace( $big, '%#%', get_pagenum_link( $big ) ),
+										    'format' => '?paged=%#%',
+										    'current' => max( 1, get_query_var('paged') ),
+										    'total' => $query->max_num_pages
+										) );
+									?>
+								</span>
+							</li>
+						</ul>
+					</div>
 				</div>
-			</div>
 			</div>
 		</section>
 		<!--/ End Education Solution -->

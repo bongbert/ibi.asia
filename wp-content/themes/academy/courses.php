@@ -1,10 +1,10 @@
 <?php 
-	$args = array(
+	$cours_arg = array(
 		'post_type' => 'our_course',
 		'post_status' => 'publish',
 		'posts_per_page' => 5
 	);
-	$query = new WP_Query($args);
+	$query = new WP_Query($cours_arg);
 
 	if ($query->have_posts()) : 
 ?>
@@ -35,16 +35,22 @@
 								<a href="<?php the_permalink();?>" class="btn"><i class="fa fa-link"></i></a>
 							</div>
 							<div class="single-content">
-								<h4><a href="<?php the_permalink();?>"><span>Commerce</span><?php the_title(); ?>t</a></h4>
+								<h4><a href="<?php the_permalink();?>"><?php the_title(); ?>t</a></h4>
 								<?= wp_trim_words( get_the_content(), 10, '...' ); ?>
 							</div>
-							<!-- <div class="course-meta">
+							<div class="course-meta">
 								<div class="meta-left">
-									<span><i class="fa fa-users"></i>36 Seat</span>
-									<span><i class="fa fa-clock-o"></i>2 Years</span>
+									<?php if(!empty(get_field('amount_of_seat'))) : ?>
+									<span><i class="fa fa-users"></i><?php the_field('amount_of_seat'); ?></span>
+									<?php endif; ?>
+									<?php if(!empty(get_field('period_of_study'))) : ?>
+										<span><i class="fa fa-clock-o"></i><?php the_field('period_of_study'); ?></span>
+									<?php endif; ?>
 								</div>
-								<span class="price">$350</span>
-							</div> -->
+								<?php if(!empty(get_field('price'))) : ?>
+									<span class="price"><?php the_field('price'); ?></span>
+								<?php endif; ?>
+							</div>
 						</div>
 						<!--/ End Single Course -->
 						<?php endwhile; wp_reset_postdata(); ?>
@@ -52,7 +58,7 @@
 				</div>
 			</div>
 		</div>
+		<center><a class="margin-top btn btn-primary" href="<?= home_url('courses'); ?>">View More</a></center>
 	</section>
 	<!--/ End Courses -->	
-
 <?php endif; ?>

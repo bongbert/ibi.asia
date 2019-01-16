@@ -3,11 +3,14 @@
 
 	if (isset($_POST['submit'])) {
 	
+		$headers =  'MIME-Version: 1.0' . "\r\n"; 
+		$headers .= 'From: Your name <info@address.com>' . "\r\n";
+		$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; 
 		$to = 'len.zeecode@gmail.com';
 		$subject = 'Apple Computer';
 		$message = 'Steve, I think this computer thing might really take off.';
 
-		wp_mail( $to, $subject, $message );
+		mail( $to, $subject, $message, $headers );
 	}
 	
 	get_header();
@@ -34,7 +37,7 @@
 						<div class="col-lg-12 col-md-12 col-12">
 							<div class="form-head">
 								<!-- Form -->
-								<form class="form" action="#" method="post">
+								<form class="form" method="post">
 									<div class="form-group">
 										<input name="name" type="text" placeholder="Enter Name *" autocomplete="off">
 									</div>

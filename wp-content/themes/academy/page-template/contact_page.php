@@ -1,7 +1,18 @@
 <?php 
 	// Template name: Contact Page
+
+	if (isset($_POST['submit'])) {
+	
+		$to = 'len.zeecode@gmail.com';
+		$subject = 'Apple Computer';
+		$message = 'Steve, I think this computer thing might really take off.';
+
+		wp_mail( $to, $subject, $message );
+	}
+	
 	get_header();
 ?>
+
 
 <?php include(TEMPLATEPATH . '/page-template/breadcrumb.php'); ?>
 
@@ -23,7 +34,7 @@
 						<div class="col-lg-12 col-md-12 col-12">
 							<div class="form-head">
 								<!-- Form -->
-								<form class="form" action="http://themelamp.com/html/learnedu/mail/mail.php">
+								<form class="form" action="#" method="post">
 									<div class="form-group">
 										<input name="name" type="text" placeholder="Enter Name *" autocomplete="off">
 									</div>
@@ -38,7 +49,7 @@
 									</div>
 									<div class="form-group">
 										<div class="button">
-											<button type="submit" class="btn primary">Post Comment</button>
+											<button type="submit" name="submit" class="btn primary">Post Comment</button>
 										</div>
 									</div>
 								</form>

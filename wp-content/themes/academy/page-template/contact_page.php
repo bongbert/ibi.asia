@@ -3,12 +3,21 @@
 
 	if (isset($_POST['submit'])) {
 	
-		$headers =  'MIME-Version: 1.0' . "\r\n"; 
-		$headers .= 'From: Your name <info@address.com>' . "\r\n";
-		$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; 
-		$to = 'len.zeecode@gmail.com';
-		$subject = 'Apple Computer';
-		$message = 'Steve, I think this computer thing might really take off.';
+		ini_set( 'display_errors', 1 );
+    	error_reporting( E_ALL );
+		
+		$name = !empty($_POST['username']) ? $_POST['username'] : '';
+		$email = !empty($_POST['email']) ? $_POST['email'] : '';
+		$website = isset($_POST['website']) ? isset($_POST['website']) : '';
+		$comment = !empty($_POST['message']) ? $_POST['message'] : '';
+
+		$headers =  "MIME-Version: 1.0" . "\r\n"; 
+		$headers .= "From: $name $email " . "\r\n";
+		$headers .= "Content-type: text/html; charset=iso-8859-1" . "\r\n"; 
+		$to = $email;
+		$subject = 'International Business Institute';
+		$message = "Dear IBI " . "<br />";
+		$message .= $comment;
 
 		mail( $to, $subject, $message, $headers );
 	}
@@ -39,7 +48,7 @@
 								<!-- Form -->
 								<form class="form" method="post">
 									<div class="form-group">
-										<input name="name" type="text" placeholder="Enter Name *" autocomplete="off">
+										<input name="username" type="text" placeholder="Enter Name *" autocomplete="off">
 									</div>
 									<div class="form-group">
 										<input name="email" type="email" placeholder="Email Address *" autocomplete="off">

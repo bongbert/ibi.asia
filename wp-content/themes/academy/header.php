@@ -64,7 +64,7 @@
 							<!-- Contact -->
 							<ul class="content">
 								<li><i class="fa fa-phone"></i><?php otherSections('phone_number'); ?></li>
-								<li><a href="<?php otherSections('email_address'); ?>"><i class="fa fa-envelope-o"></i><?php otherSections('email_address'); ?></a></li>
+								<li><i class="fa fa-envelope-o"></i><?php otherSections('email_address'); ?></li>
 								<li><i class="fa fa-clock-o"></i><?php otherSections('open_hour'); ?></li>
 							</ul>
 							<!-- End Contact -->
@@ -103,12 +103,12 @@
 							</div>
 						</div>
 						<div class="col-lg-5 col-md-5 col-12">
-							<form method="GET" action="#" accept-charset="UTF-8" class="form-horizontal form-search pull-right">
+							<form method="GET" action="<?php echo home_url( '/' ); ?>" accept-charset="UTF-8" class="form-horizontal form-search pull-right" method="get">
 				        		<input class="searchName" placeholder="Search" size="50" id="search" autocomplete="off" name="s" type="text">
 								<button type="submit" class="btn btn-default btn-sm btn-search">
 									<i class="fa fa-search"></i>
 								</button>
-					</form>
+							</form>
 						</div>
 					</div>
 				</div>

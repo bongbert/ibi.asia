@@ -1,10 +1,10 @@
 <!-- Footer -->
-		<footer class="footer overlay section wow fadeIn">
+		<footer class="footer overlay wow fadeIn">
 			<!-- Footer Top -->
 			<div class="footer-top">
 				<div class="container">
 					<div class="row">
-						<div class="col-lg-4 col-md-6 col-12">
+						<div class="col-lg-5 col-md-6 col-12">
 							<!-- About -->
 							<div class="single-widget about">
 								<!-- <div class="logo"><a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/logo2.png" alt="#"></a></div> -->
@@ -16,14 +16,16 @@
 									<li><i class="fa fa-envelope"></i>Email: 
 										<a href="mailto:<?php otherSections('footer_email'); ?>"><?php otherSections('footer_email'); ?></a>
 									</li>
-									<li><i class="fa fa-map-o"></i>Address: <?php otherSections('footer_email'); ?></li>
+									<li><i class="fa fa-map-o"></i>Address: <?php otherSections('footer_address'); ?></li>
 									
 								</ul>
 							</div>
 							<!--/ End About -->
 						</div>
-						<?php include(TEMPLATEPATH . '/page-template/footer_latest_post.php'); ?>
-						<div class="col-lg-4 col-md-6 col-12">
+						<div class="col-lg-2 col-md-6 col-12">
+							&nbsp;
+						</div>
+						<div class="col-lg-5 col-md-6 col-12">
 							<!-- Newsletter -->
 							<div class="single-widget newsletter">
 								<h2>Subscribe Newsletter</h2>
@@ -36,7 +38,7 @@
 								</div>
 							</div>
 							<!--/ End Newsletter -->
-							<a href='https://bachelorthesiswritingservice.com/'>Let write Bachelor Thesis</a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=d01992a4c5ac7d302241d889457522580c844dcd'></script>
+							<a href='https://bachelorthesiswritingservice.com/'>&nbsp;</a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=d01992a4c5ac7d302241d889457522580c844dcd'></script>
 							<script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/464019/t/1"></script>
 						</div>
 					</div>

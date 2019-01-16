@@ -2,7 +2,7 @@
 	$arg = array(
 		'post_type' => 'events',
 		'post_status' => 'publish',
-		'posts_per_page' => 3,
+		'posts_per_page' => 2,
 		'orderby' => 'date',
     	'order' => 'DESC'
 	); 

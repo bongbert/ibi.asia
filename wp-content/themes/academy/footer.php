@@ -145,5 +145,5 @@ function rotate(el, degs) {
     '-ms-filter': iefilter
   };
   $(el).css(styles);
-}
+}	
 </script>

@@ -11,7 +11,7 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 .header{
-	background-color:#ffffff;
+	background-color:#ee3623;
 }
 .header-inner {
 	border-bottom: 1px solid #fff;
@@ -119,7 +119,7 @@ body {
 	color:#000;
 }
 .header .header-menu {
-	background: #ee3623;
+	background: #fff;
 	z-index: 3333;
 	border-bottom: 1px solid #fff;
 }
@@ -142,7 +142,7 @@ body {
 	margin-right:0px;
 }
 .header .nav li a {
-	color: #252525;
+	color: #000;
 	font-size: 14px;
 	text-transform: uppercase;
 	padding: 20px;
@@ -152,7 +152,7 @@ body {
 }
 .header .nav li:hover a, 
 .header .nav li.active a {
-	color: #fff;
+	color: #fddd00;
 	background: #ccc;
 }
 .header .nav li a i {
@@ -225,7 +225,7 @@ body {
 .header .nav li > a:after {
     content: '▼';
     margin-left: 5px;
-    color: #333;
+    color: #000;
 }
 
 .header .nav li > a:only-child:after {
@@ -272,6 +272,9 @@ body {
 	-webkit-box-shadow:0px 0px 10px rgba(0, 0, 0, 0.30);
 	-moz-box-shadow:0px 0px 10px rgba(0, 0, 0, 0.30);
 	box-shadow:0px 0px 10px rgba(0, 0, 0, 0.30);
+}
+.header.sticky .header-menu a {
+	color: #000;
 }
 /*===============================
 	End Header CSS 
@@ -2928,11 +2931,11 @@ width: 100%;
     margin-left: -70px;
 }
 .slogen h1 {
-	color: #ee3623;
+	color: #fddd00;
     font-size: 26px;
     margin-top: 40px;
     font-family: 'Moul', cursive;
-    text-shadow: 0px 3px #060606;
+    text-shadow: 0px 3px #1d3ea9;
     letter-spacing: -1.5px;
     
 }
@@ -2940,7 +2943,7 @@ width: 100%;
  	font-family: 'Staatliches', cursive;
     font-size: 28px;
     margin-top: 10px;
-    color: #ee3623;
+    color: #fddd00;
     text-shadow: 0px 2px #191919;
     font-weight: bold;
 }
@@ -2953,9 +2956,12 @@ input#search {
     margin-top: 0px;
     border-radius: 2px;
     outline: none;
-    border: 1px solid #ccc;
-    padding: 0 5px;
-    height: 35px !important;
+    border: 1px solid #ffffff;
+    padding: 10px 5px;
+    background: #ffffff;
+    min-height: 40px;
+    color: #000;
+    font-size: 14px;
 }
 .btn-search {
     margin-left: -30px;

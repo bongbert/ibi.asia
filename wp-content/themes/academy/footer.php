@@ -54,13 +54,7 @@
 								<div class="row">
 									<div class="col-12">
 										<!-- Social -->
-										<ul class="social">
-											<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-											<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-											<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-											<li><a href="#"><i class="fa fa-youtube"></i></a></li>
-										</ul>
+										<?php include(TEMPLATEPATH . '/page-template/footer_social_icon.php'); ?>
 										<!-- End Social -->
 										<!-- Copyright -->
 										<div class="copyright text-center">

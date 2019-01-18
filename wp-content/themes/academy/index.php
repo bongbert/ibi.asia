@@ -21,3 +21,16 @@
 		<?php include('blogs.php'); ?>
 		
 		<?php get_footer(); ?>
+
+		<script>
+			if(window.orientation==0)
+				{
+				  document.getElementById('portrait').style.display = '';
+				  document.getElementById('landscape').style.display = 'none';
+				}
+				else if(window.orientation==90)
+				{
+				  document.getElementById('portrait').style.display = 'none';
+				  document.getElementById('landscape').style.display = '';
+				}
+		</script>

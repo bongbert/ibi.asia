@@ -42,7 +42,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Moul|Roboto" rel="stylesheet">
 		<?php wp_head(); ?>
     </head>
-    <body onorientationchange="testOrientation();" onload="testOrientation();>
+    <body>
 	
 		<!-- Book Preloader -->
         <div class="book_preload">

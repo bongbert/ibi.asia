@@ -117,9 +117,3 @@
 <!-- Mirrored from themelamp.com/html/learnedu/index2.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 18 Dec 2018 02:20:21 GMT -->
 </html>
 <?php wp_footer(); ?>
-
-<script>
-	function testOrientation() {
-	  document.getElementById('block_land').style.display = (screen.width>screen.height) ? 'none' : 'block';
-	}
-</script>

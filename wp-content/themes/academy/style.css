@@ -11,8 +11,8 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 .header{
-	background-color:#ee3623;
-	/*background: #1bb785;*/
+	/*background-color:#ee3623;*/
+	background: #1bb785;
     background-image:       linear-gradient(0deg, transparent 24%, rgba(255, 255, 255, .05) 25%, rgba(255, 255, 255, .05) 26%, transparent 27%, transparent 74%, rgba(255, 255, 255, .05) 75%, rgba(255, 255, 255, .05) 76%, transparent 77%, transparent), linear-gradient(90deg, transparent 24%, rgba(255, 255, 255, .05) 25%, rgba(255, 255, 255, .05) 26%, transparent 27%, transparent 74%, rgba(255, 255, 255, .05) 75%, rgba(255, 255, 255, .05) 76%, transparent 77%, transparent);
 	/*height:100%;*/
 	background-size: 36px 36px;
@@ -2955,10 +2955,12 @@ width: 100%;
     font-style: italic;
 }
 .sub-slogen {
-	color: #fff;
-	font-size: 45px;
-	font-family: 'Staatliches', cursive;
-	text-shadow: 0px 3px 4px #000000;
+    color: #fff;
+    font-size: 45px;
+    font-family: 'Staatliches', cursive;
+    text-shadow: 0px 3px 4px #000000;
+    letter-spacing: 1px;
+    font-style: italic;
 }
 .form-search {
 	margin-top: 10px;	
@@ -2997,7 +2999,7 @@ input#search {
 .horizental_line span { 
 	color: #ffff;
     padding: 5px 10px;
-    background: #ee3623;
+    background: #1bb785;
     font-size: 24px;
     font-family: 'Courgette', cursive;
 	letter-spacing: 1px;

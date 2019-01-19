@@ -1,13 +1,5 @@
 <div class="col-lg-4 col-12">
 	<div class="learnedu-sidebar">
-		<div class="search">
-			<form>
-				<div class="form">
-					<input type="text" name="s" placeholder="Search ...">
-					<button class="button"><i class="fa fa-search"></i></button>
-				</div>
-			</form>
-		</div>
 		<!-- Categories -->
 		<div class="single-widget categories">
 			 <h3 class="title">Categories</h3>

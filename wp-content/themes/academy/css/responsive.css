@@ -384,6 +384,9 @@
 .mobile-hidden {
 	display: none;
 }
+.hide_desktop {
+	display: block;
+}
 .form-search {
 	width: 100%;
 	line-height: 0;

@@ -11,7 +11,19 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 .header{
-	background-color:#ee3623;
+	/*background-color:#ee3623;*/
+	background: #1bb785;
+    background-image:       linear-gradient(0deg, transparent 24%, rgba(255, 255, 255, .05) 25%, rgba(255, 255, 255, .05) 26%, transparent 27%, transparent 74%, rgba(255, 255, 255, .05) 75%, rgba(255, 255, 255, .05) 76%, transparent 77%, transparent), linear-gradient(90deg, transparent 24%, rgba(255, 255, 255, .05) 25%, rgba(255, 255, 255, .05) 26%, transparent 27%, transparent 74%, rgba(255, 255, 255, .05) 75%, rgba(255, 255, 255, .05) 76%, transparent 77%, transparent);
+	/*height:100%;*/
+	background-size: 36px 36px;
+}
+
+.follow-me {
+  position:absolute;
+  bottom:10px;
+  right:10px;
+  text-decoration: none;
+  color: #FFFFFF;
 }
 .header-inner {
 	border-bottom: 1px solid #fff;
@@ -68,7 +80,7 @@ body {
 	margin-top: 34px;
 }
 .logo {
-	width: 110px;
+	width: 160px;
 	margin-bottom: 20px;
 }
 .header .header-widget {
@@ -121,7 +133,7 @@ body {
 .header .header-menu {
 	background: #fff;
 	z-index: 3333;
-	border-bottom: 1px solid #fff;
+	border-bottom: 1px solid #f7d7d7;
 }
 .header .navbar {
 	background: none;
@@ -2927,27 +2939,27 @@ width: 100%;
 	margin-top: 35px;
 }
 .slogen {
-	line-height: 42px;
-    margin-left: -70px;
-}
-.slogen h1 {
-	color: #fddd00;
-    font-size: 26px;
-    margin-top: 40px;
-    font-family: 'Moul', cursive;
-    text-shadow: 0px 3px #1d3ea9;
-    letter-spacing: -1.5px;
-    
-}
-.text-slogan {
- 	font-family: 'Staatliches', cursive;
-    font-size: 28px;
-    margin-top: 10px;
-    color: #fddd00;
-    text-shadow: 0px 2px #191919;
-    font-weight: bold;
+	line-height: 80px;
+	text-align: center;
 }
 
+.text-slogan {
+    font-family: 'Staatliches', cursive;
+    font-size: 46px;
+    margin-top: 10px;
+    color: #ffffff;
+    text-shadow: 0px 2px #191919;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+    font-style: italic;
+}
+.sub-slogen {
+	color: #fff;
+	font-size: 45px;
+	/*font-family: 'Marck Script', cursive;*/
+	font-family: 'Philosopher', sans-serif;
+}
 .form-search {
 	margin-top: 10px;	
 }
@@ -2967,4 +2979,25 @@ input#search {
     border: none;
     padding: 4px;
     background: none;
+}
+
+.hide_desktop {
+	display: none;
+}
+
+.horizental_line { 
+	margin: 0 auto;
+    width: 70%;
+    text-align: center;
+    border-bottom: 2px solid #fff;
+    line-height: 0.1em;
+    font-weight: bold;
+} 
+.horizental_line span { 
+	color: #ffff;
+    padding: 5px 10px;
+    background: #1bb785;
+    font-size: 24px;
+    font-family: 'Courgette', cursive;
+	letter-spacing: 1px;
 }

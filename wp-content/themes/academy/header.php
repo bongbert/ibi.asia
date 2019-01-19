@@ -40,6 +40,8 @@
 		<!-- Learedu Color -->
 		<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/color/color1.css">
 		<link href="https://fonts.googleapis.com/css?family=Moul|Roboto" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
 		<?php wp_head(); ?>
     </head>
     <body>
@@ -66,13 +68,21 @@
 							</div>
 							<div class="mobile-menu"></div>
 						</div>
-						<div class="col-lg-5 col-md-5 col-12 mobile-hidden">
+						<div class="col-lg-9 col-md-9 col-12 mobile-hidden">
 							<div class="slogen">
-								<h1>វិទ្យាស្ថានអាជីវកម្មអន្តរជាតិ</h1>
 								<p class="text-slogan">International Business Institute</p>
+								<div class="horizental_line"><span>for</span></div>
+								<span class="sub-slogen">Leadership International Program</span>
 							</div>
 						</div>
-						
+						<div class="col-lg-5 col-md-5 col-12 hide_desktop">
+							<form method="GET" action="<?php echo home_url( '/' ); ?>" accept-charset="UTF-8" class="form-horizontal form-search pull-right" method="get">
+				        		<input class="searchName" placeholder="Search" size="50" id="search" autocomplete="off" name="s" type="text">
+								<button type="submit" class="btn btn-default btn-sm btn-search">
+									<i class="fa fa-search"></i>
+								</button>
+							</form>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -100,12 +110,13 @@
 						</div>
 						<div class="col-lg-3 col-md-3 col-12">
 							<form method="GET" action="<?php echo home_url( '/' ); ?>" accept-charset="UTF-8" class="form-horizontal form-search pull-right" method="get">
-				        		<input class="searchName" placeholder="Search" id="search" autocomplete="off" name="s" type="text">
+				        		<input class="searchName" size="30" placeholder="Search" id="search" autocomplete="off" name="s" type="text">
 								<button type="submit" class="btn btn-default btn-sm btn-search">
 									<i class="fa fa-search"></i>
 								</button>
 							</form>
 						</div>
+
 					</div>
 				</div>
 			</div>

@@ -7,17 +7,15 @@
 						<div class="col-lg-5 col-md-6 col-12">
 							<!-- About -->
 							<div class="single-widget about">
-								<!-- <div class="logo"><a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/logo2.png" alt="#"></a></div> -->
-								<?php if(!empty(otherSections('footer_description'))) : ?>
-									<p><?php otherSections('footer_description'); ?></p>
-								<?php endif; ?>
 								<ul class="list">
 									<li><i class="fa fa-phone"></i>Phone: <?php otherSections('footer_phone'); ?> </li>
 									<li><i class="fa fa-envelope"></i>Email: 
 										<a href="mailto:<?php otherSections('footer_email'); ?>"><?php otherSections('footer_email'); ?></a>
 									</li>
 									<li><i class="fa fa-map-o"></i>Address: <?php otherSections('footer_address'); ?></li>
-									
+									<!--/ End Newsletter -->
+									<a href='https://bachelorthesiswritingservice.com/'>&nbsp;</a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=d01992a4c5ac7d302241d889457522580c844dcd'></script>
+									<script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/464019/t/1"></script>
 								</ul>
 							</div>
 							<!--/ End About -->
@@ -37,9 +35,7 @@
 									</div>
 								</div>
 							</div>
-							<!--/ End Newsletter -->
-							<a href='https://bachelorthesiswritingservice.com/'>&nbsp;</a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=d01992a4c5ac7d302241d889457522580c844dcd'></script>
-							<script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/464019/t/1"></script>
+							
 						</div>
 					</div>
 				</div>

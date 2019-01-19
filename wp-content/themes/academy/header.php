@@ -56,36 +56,6 @@
 
 		<!-- Header -->
 		<header class="header">
-			<!-- Topbar -->
-			<div class="topbar">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-8 col-12">
-							<!-- Contact -->
-							<ul class="content">
-								<li><i class="fa fa-phone"></i><?php otherSections('phone_number'); ?></li>
-								<li><i class="fa fa-envelope-o"></i><?php otherSections('email_address'); ?></li>
-								<li><i class="fa fa-clock-o"></i><?php otherSections('open_hour'); ?></li>
-							</ul>
-							<!-- End Contact -->
-						</div>
-						<div class="col-lg-4 col-12">
-							<!-- Social -->
-							<!-- <ul class="social">
-								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-								<li><a href="#"><i class="fa fa-google-plus "></i></a></li>
-								<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-								<li><a href="#"><i class="fa fa-behance"></i></a></li>
-								<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-								<li><a href="#"><i class="fa fa-youtube"></i></a></li>
-							</ul> -->
-							<!-- End Social -->
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- End Topbar -->
 			<!-- Header Inner -->
 			<div class="header-inner">
 				<div class="container">
@@ -102,14 +72,7 @@
 								<p class="text-slogan">International Business Institute</p>
 							</div>
 						</div>
-						<div class="col-lg-5 col-md-5 col-12">
-							<form method="GET" action="<?php echo home_url( '/' ); ?>" accept-charset="UTF-8" class="form-horizontal form-search pull-right" method="get">
-				        		<input class="searchName" placeholder="Search" size="50" id="search" autocomplete="off" name="s" type="text">
-								<button type="submit" class="btn btn-default btn-sm btn-search">
-									<i class="fa fa-search"></i>
-								</button>
-							</form>
-						</div>
+						
 					</div>
 				</div>
 			</div>
@@ -118,7 +81,7 @@
 			<div class="header-menu">
 				<div class="container">
 					<div class="row">
-						<div class="col-12">
+						<div class="col-9">
 							<nav class="navbar navbar-default">
 								<div class="navbar-collapse">
 
@@ -134,6 +97,14 @@
 									
 								</div> 
 							</nav>
+						</div>
+						<div class="col-lg-3 col-md-3 col-12">
+							<form method="GET" action="<?php echo home_url( '/' ); ?>" accept-charset="UTF-8" class="form-horizontal form-search pull-right" method="get">
+				        		<input class="searchName" placeholder="Search" id="search" autocomplete="off" name="s" type="text">
+								<button type="submit" class="btn btn-default btn-sm btn-search">
+									<i class="fa fa-search"></i>
+								</button>
+							</form>
 						</div>
 					</div>
 				</div>

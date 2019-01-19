@@ -58,7 +58,7 @@
 										<!-- End Social -->
 										<!-- Copyright -->
 										<div class="copyright text-center">
-											<p>© Copyright 2018 <a href="#">International Business Institution</a>. All Rights Reserved</p>
+											<p>© Copyright 2018 <a href="#">International Business Institute</a>. All Rights Reserved</p>
 										</div>
 										<!--/ End Copyright -->
 									</div>

@@ -11,8 +11,8 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 .header{
-	/*background-color:#ee3623;*/
-	background: #1bb785;
+	background-color:#ee3623;
+	/*background: #1bb785;*/
     background-image:       linear-gradient(0deg, transparent 24%, rgba(255, 255, 255, .05) 25%, rgba(255, 255, 255, .05) 26%, transparent 27%, transparent 74%, rgba(255, 255, 255, .05) 75%, rgba(255, 255, 255, .05) 76%, transparent 77%, transparent), linear-gradient(90deg, transparent 24%, rgba(255, 255, 255, .05) 25%, rgba(255, 255, 255, .05) 26%, transparent 27%, transparent 74%, rgba(255, 255, 255, .05) 75%, rgba(255, 255, 255, .05) 76%, transparent 77%, transparent);
 	/*height:100%;*/
 	background-size: 36px 36px;
@@ -2944,11 +2944,11 @@ width: 100%;
 }
 
 .text-slogan {
-    font-family: 'Staatliches', cursive;
+	font-family: 'Staatliches', cursive;
     font-size: 46px;
     margin-top: 10px;
     color: #ffffff;
-    text-shadow: 0px 2px #191919;
+    text-shadow: 0px 3px 4px #000000;
     font-weight: bold;
     letter-spacing: 1px;
     text-align: center;
@@ -2957,8 +2957,8 @@ width: 100%;
 .sub-slogen {
 	color: #fff;
 	font-size: 45px;
-	/*font-family: 'Marck Script', cursive;*/
-	font-family: 'Philosopher', sans-serif;
+	font-family: 'Staatliches', cursive;
+	text-shadow: 0px 3px 4px #000000;
 }
 .form-search {
 	margin-top: 10px;	
@@ -2991,12 +2991,13 @@ input#search {
     text-align: center;
     border-bottom: 2px solid #fff;
     line-height: 0.1em;
-    font-weight: bold;
+    /*font-weight: bold;*/
+    margin-top: 10px;
 } 
 .horizental_line span { 
 	color: #ffff;
     padding: 5px 10px;
-    background: #1bb785;
+    background: #ee3623;
     font-size: 24px;
     font-family: 'Courgette', cursive;
 	letter-spacing: 1px;

@@ -67,7 +67,7 @@
 							</div>
 							<div class="mobile-menu"></div>
 						</div>
-						<div class="col-lg-9 col-md-9 col-12 mobile-hidden">
+						<div class="col-lg-8 col-md-8 col-12 mobile-hidden">
 							<div class="slogen">
 								<p class="text-slogan">International Business Institute</p>
 								<div class="horizental_line"><span>for</span></div>

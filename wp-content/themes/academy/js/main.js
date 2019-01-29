@@ -34,13 +34,16 @@ Version:	1.0
 			Sticky Header JS
 		======================================*/ 
 		jQuery(window).on('scroll', function() {
-			if ($(this).scrollTop() > 100) {
-				$('.header').addClass("sticky");
-			} else {
-				$('.header').removeClass("sticky");
+			if ($(window).width() > 640) {
+				if ($(this).scrollTop() > 100) {
+					$('.header').addClass("sticky");
+				} else {
+					$('.header').removeClass("sticky");
+				}
 			}
 		});
 		
+
 		/*====================================
 			Mobile Menu JS
 		======================================*/ 	

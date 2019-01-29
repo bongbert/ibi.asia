@@ -43,7 +43,7 @@
 				</div>
 				<div class="contact-head">
 					<div class="row">
-						<div class="col-lg-12 col-md-12 col-12">
+						<div class="col-lg-8 col-md-8 col-12">
 							<div class="form-head">
 								<!-- Form -->
 								<form class="form" method="post">
@@ -68,6 +68,8 @@
 								<!--/ End Form -->
 							</div>
 						</div>
+
+						<?php get_sidebar(); ?>
 					</div>
 				</div>
 				<div class="contact-bottom">

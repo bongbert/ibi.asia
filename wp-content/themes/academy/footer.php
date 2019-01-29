@@ -104,7 +104,6 @@
 		<!-- Scroll Up JS-->
         <script src="<?php bloginfo('template_directory'); ?>/js/jquery.scrollUp.min.js"></script>
 		<!-- Google Maps JS -->
-		<script src="http://maps.google.com/maps/api/js?key=AIzaSyC0RqLa90WDfoJedoE3Z_Gy7a7o8PCL2jw"></script>
         <script src="<?php bloginfo('template_directory'); ?>/js/gmaps.min.js"></script>
 		<!-- Main JS-->
         <script src="<?php bloginfo('template_directory'); ?>/js/main.js"></script>

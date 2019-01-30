@@ -19,7 +19,13 @@
 		$message = "Dear IBI " . "<br />";
 		$message .= $comment;
 
-		mail( $to, $subject, $message, $headers );
+		$mail = mail( $to, $subject, $message, $headers );
+
+		if ($email) {
+			echo "Sent";
+		} else {
+			echo "Not send";
+		}
 	}
 	
 	get_header();

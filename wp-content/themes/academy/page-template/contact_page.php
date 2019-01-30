@@ -14,7 +14,7 @@
 		$headers =  "MIME-Version: 1.0" . "\r\n"; 
 		$headers .= "From: $name $email " . "\r\n";
 		$headers .= "Content-type: text/html; charset=iso-8859-1" . "\r\n"; 
-		$to = $email;
+		$to = 'len.zeecode@gmail.com';
 		$subject = 'International Business Institute';
 		$message = "Dear IBI " . "<br />";
 		$message .= $comment;

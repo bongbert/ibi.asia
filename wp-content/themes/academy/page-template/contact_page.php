@@ -70,21 +70,21 @@
 										</div>
 									</li>
 									<?php if(have_rows('fax_numbers')) : ?>
-									<li><label><i class="fa fa-print"></i>Fax no</label>
-										<div class="des">
-											<?php 
-												$i = 0;
-												while (have_rows('fax_numbers')) : the_row();
-													$i++;
-													if($i == 1) echo '';
-													else echo '|';
-											?>
-											<?php the_sub_field('fax'); ?>
+										<li><label><i class="fa fa-print"></i>Fax no</label>
+											<div class="des">
+												<?php 
+													$i = 0;
+													while (have_rows('fax_numbers')) : the_row();
+														$i++;
+														if($i == 1) echo '';
+														else echo '|';
+												?>
+												<?php the_sub_field('fax'); ?>
 
-												<?php endwhile; ?>
-										</div>
-									</li>
-								<?php endif; ?>
+													<?php endwhile; ?>
+											</div>
+										</li>
+									<?php endif; ?>
 									<li><label><i class="fa fa-envelope"></i>Email Address</label>
 										<div class="des">
 											<?php 

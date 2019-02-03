@@ -54,3 +54,17 @@ function otherSections($field) {
     wp_reset_query();
   endif;
 }
+
+function custom_menu_page_removing() {
+    remove_menu_page('edit-comments.php');
+    // remove_menu_page('plugins.php');
+    remove_menu_page('admin.php?page=cptui_manage_post_types');
+    remove_menu_page('tools.php');
+    // remove_menu_page('upload.php');
+    remove_menu_page('wp-admin/admin.php?page=wpseo_dashboard');
+    remove_menu_page('customize.php');
+    
+    // remove submenu page
+}
+add_action( 'admin_init', 'custom_menu_page_removing' );
+

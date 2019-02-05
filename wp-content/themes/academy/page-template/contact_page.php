@@ -27,28 +27,20 @@
 					<div class="col-md-12">
 						<div class="section-title">
 							<h2><span>Contact</span> Information</h2>
-						<?php the_field('contact_description'); ?>
+						<?php //the_field('contact_description'); ?>
 						</div>
 					</div>
 				</div>
 				<div class="contact-head">
-					<div class="row">
-						<div class="col-lg-6 col-md-6 col-12">
-							<div class="contact-map">
-								<!-- Map -->
-								<div id="map">
-									<?php the_field('map_location'); ?>
-								</div>
-								<!--/ End Map -->
-							</div>
-						</div>
-						<div class="col-lg-6 col-md-6 col-12">
+					<div class="row">	
+						<div class="col-lg-12 col-md-12 col-12">
 							<div class="contact_infor">
 								<ul>
 									<li><label><i class="fa fa-map-marker"></i>Address</label>
 										<div class="des"><?php the_field('address'); ?></div>
 									</li>
-									<li><label><i class="fa fa-phone"></i>Phone Number</label>
+									<li>
+										<label><i class="fa fa-phone"></i>Phone Number</label>
 										<div class="des">
 											<?php 
 												$i = 0;
@@ -69,22 +61,6 @@
 											?>
 										</div>
 									</li>
-									<?php if(have_rows('fax_numbers')) : ?>
-										<li><label><i class="fa fa-print"></i>Fax no</label>
-											<div class="des">
-												<?php 
-													$i = 0;
-													while (have_rows('fax_numbers')) : the_row();
-														$i++;
-														if($i == 1) echo '';
-														else echo '|';
-												?>
-												<?php the_sub_field('fax'); ?>
-
-													<?php endwhile; ?>
-											</div>
-										</li>
-									<?php endif; ?>
 									<li><label><i class="fa fa-envelope"></i>Email Address</label>
 										<div class="des">
 											<?php 

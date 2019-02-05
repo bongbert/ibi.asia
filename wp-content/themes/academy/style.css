@@ -1305,7 +1305,7 @@ body {
 }
 .testimonials .single-testimonial {
 	text-align: left;
-	background: #fff;
+	/*background: #fff;*/
 	padding: 30px;
 	position: relative;
 	margin-top: 37px;
@@ -1313,7 +1313,7 @@ body {
 }
 .testimonials .single-testimonial img{
 	position:absolute;
-	left:50%;
+	left:5%;
 	margin-left:-37px;
 	top:-37px;
 	height:80px;
@@ -3003,3 +3003,20 @@ input#search {
 	display:        inline-block;
 	vertical-align: middle;
 }
+.image-partner {
+	width: 70% !important;
+}
+
+/*.owl-carousel .owl-item {
+    position: relative;
+    min-height: 1px;
+    float: left;
+    -webkit-backface-visibility: hidden;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 150px !important;
+}*/

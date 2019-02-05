@@ -2899,21 +2899,29 @@ width: 100%;
 
 .text-slogan {
 	font-family: 'Staatliches', cursive;
-    font-size: 46px;
+	/*font-family: 'Source Sans Pro', sans-serif;*/
+    font-size: 38px;
     margin-top: 10px;
     color: #ffffff;
     text-shadow: 0px 3px 4px #000000;    
-    letter-spacing: 2px;
+    letter-spacing: 0px;
     text-align: center;
+    font-style: italic;
     
 }
 .sub-slogen {
     color: #fff;
-    font-size: 45px;
-    font-family: 'Staatliches', cursive;
+    font-size: 38px;
+     font-family: 'Staatliches', cursive; 
     text-shadow: 0px 3px 4px #000000;
-    letter-spacing: 1px;
-    /*font-style: italic;*/
+    letter-spacing: -1px;
+    /*font-family: 'Source Sans Pro', sans-serif;*/
+    font-style: italic;
+}
+.sub-slogen span {
+	display: block;
+    line-height: 10px;
+    margin-top: 30px;
 }
 .form-search {
 	margin-top: 10px;	
@@ -2942,11 +2950,11 @@ input#search {
 
 .horizental_line { 
 	margin: 0 auto;
-    width: 82%;
+    width: 62%;
     text-align: center;
     border-bottom: 2px solid #fff;
     line-height: 0.1em;
-    /*font-weight: bold;*/
+    margin-left: 225px;
     margin-top: 10px;
 } 
 .horizental_line span { 

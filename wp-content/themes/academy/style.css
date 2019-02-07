@@ -1935,6 +1935,7 @@ width: 100%;
 }
 .blog.b-archives.single .blog-title a{
 	color:#252525;
+	font-family: 'Merriweather', serif;
 }
 .blog.b-archives.single .detail-content p{
 	margin-bottom:20px;
@@ -2952,7 +2953,7 @@ input#search {
     border-bottom: 2px solid #fff;
     line-height: 0.1em;
     margin-left: 214px;
-    margin-top: 10px;
+    margin-top: 0px;
 } 
 .horizental_line span { 
 	color: #ffff;

@@ -304,7 +304,7 @@ body {
 	background-position: center;
 	background-repeat: no-repeat;
 	height: 650px;
-	border: none;
+	border: none;	
 }
 .home-slider .single-slider:before{
 	opacity:0.7;
@@ -2908,6 +2908,7 @@ width: 100%;
 	letter-spacing: 0px;
 	text-align: center;
 	font-style: italic;
+	font-weight: bold;
 }
 .sub-slogen {
     color: #fff;

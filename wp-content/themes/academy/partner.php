@@ -13,7 +13,7 @@
 	<div class="row">
 		<div class="col-12 wow zoomIn">
 			<div class="section-title">
-				<h3><?php otherSections('partner_title'); ?></h3>
+				<h2><?php otherSections('partner_title'); ?></h2>
 				<p><?php otherSections('partner_description'); ?></p>
 			</div>
 		</div>

@@ -43,6 +43,14 @@
 		<!-- <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet"> -->
 		<!-- <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet"> -->
 		<?php wp_head(); ?>
+
+		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<script>
+		  (adsbygoogle = window.adsbygoogle || []).push({
+		    google_ad_client: "ca-pub-2225544357143047",
+		    enable_page_level_ads: true
+		  });
+		</script>
     </head>
     <body>
 	

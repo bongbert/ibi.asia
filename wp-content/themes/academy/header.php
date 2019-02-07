@@ -40,7 +40,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Merriweather:400i" rel="stylesheet">
 		<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/color/color1.css">
-		<link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+		<!-- <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet"> -->
 		<!-- <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet"> -->
 		<?php wp_head(); ?>
     </head>

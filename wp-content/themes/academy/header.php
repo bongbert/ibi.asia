@@ -38,7 +38,7 @@
 		
 		<!-- Learedu Color -->
 		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Merriweather:400i" rel="stylesheet">
 		<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/color/color1.css">
 		<link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
 		<!-- <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet"> -->
@@ -63,13 +63,13 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-lg-10 ml-auto">
-							<div class="col-lg-2 col-md-2 col-12 col-offset-6 centered">
+							<div class="col-lg-2 col-md-2 col-12">
 								<div class="logo">
 									<a href="<?= home_url(); ?>"><img src="<?php bloginfo('template_directory'); ?>/images/logo.png" alt="#"></a>
 								</div>
 								<div class="mobile-menu"></div>
 							</div>
-							<div class="col-lg-10 col-md-10 col-12 mobile-hidden">
+							<div class="col-lg-10 col-md-10 mobile-hidden">
 								<div class="slogen">
 									<p class="text-slogan">International Business Institute</p>
 									<div class="horizental_line"><span>for</span></div>

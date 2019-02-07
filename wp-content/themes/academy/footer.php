@@ -39,15 +39,15 @@
 	<!-- Colors JS-->
     <script src="<?php bloginfo('template_directory'); ?>/js/colors.js"></script>
 	<!-- Jquery Steller JS -->
-	<script src="<?php //bloginfo('template_directory'); ?>/js/jquery.stellar.min.js"></script>
+	<script src="<?php bloginfo('template_directory'); ?>/js/jquery.stellar.min.js"></script>
 	<!-- Particle JS -->
 	<script src="<?php //bloginfo('template_directory'); ?>/js/particles.min.js"></script>
 	<!-- Fancy Box JS-->
 	<script src="<?php //bloginfo('template_directory'); ?>/js/facnybox.min.js"></script>
 	<!-- Magnific Popup JS-->
-	<script src="<?php //bloginfo('template_directory'); ?>/js/jquery.magnific-popup.min.js"></script>
+	<script src="<?php bloginfo('template_directory'); ?>/js/jquery.magnific-popup.min.js"></script>
 	<!-- Masonry JS-->
-	<script src="<?php //bloginfo('template_directory'); ?>/js/masonry.pkgd.min.js"></script>
+	<script src="<?php bloginfo('template_directory'); ?>/js/masonry.pkgd.min.js"></script>
 	<!-- Circle Progress JS -->
 	<script src="<?php bloginfo('template_directory'); ?>/js/circle-progress.min.js"></script>
 	<!-- Owl Carousel JS-->

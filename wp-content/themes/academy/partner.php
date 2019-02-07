@@ -27,7 +27,9 @@
 						$image = get_field('icon');
 				 ?>
 				    <div class="item">
-				     	<img src="<?= $image['url']; ?>" class="img-responsive image-partner" alt="<?php the_title(); ?>" title="<?php the_title(); ?>">
+				    	<a target="_blank" href="<?php the_field('link'); ?>">
+				     		<img src="<?= $image['url']; ?>" class="img-responsive image-partner" alt="<?php the_title(); ?>" title="<?php the_title(); ?>">
+				     	</a>
 				    </div>
 				<?php endwhile; ?>
 			</div>

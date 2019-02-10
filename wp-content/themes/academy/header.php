@@ -9,6 +9,8 @@
 		<meta name="description" content="">
 		<meta name='copyright' content=''>
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- Google gmail verification -->
+		<meta name="google-site-verification" content="nvpSMfQnrZidq5ghG4ON37KQkr9DufwDfwZh65qz2gw" />
 		<!-- Title -->
 		<title><?php wp_title('|',true,'right'); ?> <?php bloginfo('name'); ?></title>
 		<!-- Favicon -->

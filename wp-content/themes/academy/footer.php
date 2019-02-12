@@ -28,7 +28,29 @@
 		<!--/ End Footer Bottom -->
 	</footer>
 	<!--/ End Footer -->
-	
+		
+	<!-- Start Facebook Live Chat -->
+	<div class="fb-customerchat" page_id="278693078906338" minimized="true"></div>
+	<script>
+	  window.fbAsyncInit = function() {
+	    FB.init({
+	      appId            : '280130452682849',
+	      autoLogAppEvents : true,
+	      xfbml            : true,
+	      version          : 'v2.11'
+	    });
+	  };
+	(function(d, s, id){
+	     var js, fjs = d.getElementsByTagName(s)[0];
+	     if (d.getElementById(id)) {return;}
+	     js = d.createElement(s); js.id = id;
+	     js.src = "https://connect.facebook.net/en_US/sdk.js";
+	     fjs.parentNode.insertBefore(js, fjs);
+	   }(document, 'script', 'facebook-jssdk'));
+	</script>
+
+	<!-- End Facebook Live Chat -->
+
 	<!-- Jquery JS-->
     <script src="<?php bloginfo('template_directory'); ?>/js/jquery.min.js"></script>
     <script src="<?php bloginfo('template_directory'); ?>/js/jquery-migrate.min.js"></script>

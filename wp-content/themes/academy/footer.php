@@ -70,28 +70,24 @@
     <script src="<?php bloginfo('template_directory'); ?>/js/main.js"></script>
 
 	<!-- Start Facebook Live Chat -->
-	<script>
-	  window.fbAsyncInit = function() {
-	    FB.init({
-	      appId      : '280130452682849',
-	      xfbml      : true,
-	      version    : 'v3.2'
-	    });
-	    FB.AppEvents.logPageView();
-	  };
+	<!-- Load Facebook SDK for JavaScript -->
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
 
-	  (function(d, s, id){
-	     var js, fjs = d.getElementsByTagName(s)[0];
-	     if (d.getElementById(id)) {return;}
-	     js = d.createElement(s); js.id = id;
-	     js.src = "https://connect.facebook.net/en_US/sdk.js";
-	     fjs.parentNode.insertBefore(js, fjs);
-	   }(document, 'script', 'facebook-jssdk'));
-	</script>
-
-	<div class="fb-customerchat" page_id="278693078906338" minimized="true"></div>
-
-	<!-- End Facebook Live Chat -->
+	<!-- Your customer chat code -->
+	<div class="fb-customerchat"
+	  attribution="setup_tool"
+	  page_id="278693078906338"
+	  logged_in_greeting="សួស្តី តើមានអ្វីអោយពួកយើងជួយ?"
+	  logged_out_greeting="សួស្តី តើមានអ្វីអោយពួកយើងជួយ?">
+	</div>
+	<!-- end facebook chat -->
 
 </body>
 <script>

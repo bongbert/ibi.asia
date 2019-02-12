@@ -30,7 +30,6 @@
 	<!--/ End Footer -->
 		
 	<!-- Start Facebook Live Chat -->
-	<div class="fb-customerchat" page_id="278693078906338" minimized="true"></div>
 	<script>
 	  window.fbAsyncInit = function() {
 	    FB.init({
@@ -48,6 +47,8 @@
 	     fjs.parentNode.insertBefore(js, fjs);
 	   }(document, 'script', 'facebook-jssdk'));
 	</script>
+
+	<div class="fb-customerchat" page_id="278693078906338" minimized="true"></div>
 
 	<!-- End Facebook Live Chat -->
 

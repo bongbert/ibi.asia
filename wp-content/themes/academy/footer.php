@@ -83,9 +83,9 @@
 	<!-- Your customer chat code -->
 	<div class="fb-customerchat"
 	  attribution="setup_tool"
-	  page_id="278693078906338"
-	  logged_in_greeting="សួស្តី តើមានអ្វីអោយពួកយើងជួយ?"
-	  logged_out_greeting="សួស្តី តើមានអ្វីអោយពួកយើងជួយ?">
+	  page_id="803280939692916"
+	  logged_in_greeting="Hello, what can we do for you?"
+	  logged_out_greeting="Hello, what can we do for you?">
 	</div>
 	<!-- end facebook chat -->
 

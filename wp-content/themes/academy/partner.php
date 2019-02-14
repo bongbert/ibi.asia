@@ -2,7 +2,7 @@
 	$args = array(
 		'post_type' => 'partnership',
 		'post_status' => 'publish',
-		'posts_per_page' => 3
+		// 'posts_per_page' => 3
 	);
 	$query = new WP_Query($args);
 
@@ -20,21 +20,21 @@
 	</div>
 
 	<div class="row">
-		<div class="col-md-12">
-			<div class="owl-carousel owl-theme">
+		<div class="col-md-12 col-12">
+			<div class="owl-carousel">
 				<?php
 					while($query->have_posts()) : $query->the_post();
 						$image = get_field('icon');
 				 ?>
 				    <div class="item">
 				    	<a target="_blank" href="<?php the_field('link'); ?>">
-				     		<img src="<?= $image['url']; ?>" class="img-responsive image-partner" alt="<?php the_title(); ?>" title="<?php the_title(); ?>">
+				     		<img src="<?= $image['url']; ?>" class="image-partner" alt="<?php the_title(); ?>" title="<?php the_title(); ?>">
 				     	</a>
 				    </div>
-				<?php endwhile; ?>
+				<?php endwhile; wp_reset_postdata() ?>
 			</div>
 		  
 		</div>
 	</div>
-</section>
+</section> <br />
 <?php endif; ?>

@@ -98,12 +98,13 @@
       $('.owl-carousel').owlCarousel({
         loop: true,
         margin: 10,
+        responsiveClass:true,
         dots:false,
         responsive: {
           0: {
             items: 1,
-            nav: false,
-            dots:true,
+            nav: true,
+            dots:false,
           },
           600: {
             items: 3,

@@ -104,7 +104,7 @@
           0: {
             items: 1,
             nav: true,
-            dots:false,
+            dots:true,
           },
           600: {
             items: 3,

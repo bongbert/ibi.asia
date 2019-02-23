@@ -9,9 +9,12 @@
 	<section class="blog b-archives single section">
 		<div class="container">
 			<div class="row">
+
 				<?php 
 					while(have_posts()) : the_post();
+						$image = get_field('images');
 				?>
+				
 				<div class="col-lg-8 col-12">
 					<div class="blog-detail">
 						<div class="detail-content">
@@ -22,6 +25,7 @@
 								<!-- <a href="#"><i class="fa fa-bolt"></i>Learning</a> -->
 							</div>
 							<h2 class="blog-title"><a href="#"><?php the_title(); ?></a></h2>
+							<img src="<?php echo $image['url']; ?>" style="width: 100%; margin-bottom: 20px;">
 							<?php the_content(); ?>
 						</div>
 

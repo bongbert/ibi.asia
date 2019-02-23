@@ -30,6 +30,7 @@
 				</div>
 			</div>
 			<div class="row">
+				
 				<?php 
 					$i = 0;
 					while ($the_query->have_posts()) : $the_query->the_post();

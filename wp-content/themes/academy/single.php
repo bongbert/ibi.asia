@@ -21,17 +21,21 @@
 								<!-- <a href="#"><i class="fa fa-bolt"></i>Learning</a> -->
 							</div>
 							<h2 class="blog-title"><a href="#"><?php the_title(); ?></a></h2>
+							
+							<div class="feature-head">
+								<?php 
+									if ( has_post_thumbnail() ) :
+										    the_post_thumbnail();
+									else : 
+								?>
+									<img src="<?php bloginfo('template_directory'); ?>/images/no-image.jpg" />
+									
+								<?php endif; ?>
+								<!-- <img src="<?= $image['url']; ?>" alt="#"> --> <br /><br />
+							</div>
+
 							<?php the_content(); ?>
 						</div>
-						<!-- <div class="blog-bottom">
-							<ul class="share">
-								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-								<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-								<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-								<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-							</ul>
-						</div> -->
 						
 					</div>
 				</div>

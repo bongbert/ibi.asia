@@ -32,7 +32,15 @@
 					<!-- Single Feature -->
 					<div class="single-feature">
 						<div class="feature-head">
-							<img src="<?= $image['url']; ?>" alt="#">
+							<?php 
+								if ( has_post_thumbnail() ) :
+									    the_post_thumbnail();
+								else : 
+							?>
+								<img src="<?php bloginfo('template_directory'); ?>/images/no-image.jpg" />
+								
+							<?php endif; ?>
+							<!-- <img src="<?= $image['url']; ?>" alt="#"> -->
 						</div>
 						<h2><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h2>
 						<?= wp_trim_words( get_the_content(), 10, '...' ); ?>

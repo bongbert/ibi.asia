@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Handles the settings screen.
  *

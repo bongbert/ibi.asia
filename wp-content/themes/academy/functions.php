@@ -68,3 +68,26 @@ function custom_menu_page_removing() {
 }
 add_action( 'admin_init', 'custom_menu_page_removing' );
 
+
+// Disable add new button
+add_action("load-post-new.php", 'block_post');
+
+function block_post()
+{
+    if($_GET["post_type"] == "others") 
+        wp_redirect("edit.php?post_type=others");
+}
+
+function disable_new_posts() {
+// Hide sidebar link
+global $submenu;
+unset($submenu['edit.php?post_type=others'][10]);
+
+// Hide link on listing page
+if (isset($_GET['post_type']) && $_GET['post_type'] == 'others') {
+    echo '<style type="text/css">
+    #favorite-actions, .add-new-h2, .tablenav, .page-title-action { display:none; }
+    </style>';
+}
+}
+add_action('admin_menu', 'disable_new_posts');

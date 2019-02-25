@@ -32,7 +32,15 @@
 						<!-- Single Blog -->
 						<div class="single-blog">
 							<div class="blog-head overlay">
-								<img src="<?= $image['url']; ?>" alt="#">
+								
+								<div class="feature-head">
+									<?php 
+										if ( has_post_thumbnail() ) :
+											    the_post_thumbnail();
+										endif; 
+									?>
+								</div><br />
+
 							</div>
 							<div class="blog-content">
 								<h4 class="blog-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>

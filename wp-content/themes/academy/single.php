@@ -23,6 +23,7 @@
 							<h2 class="blog-title"><a href="#"><?php the_title(); ?></a></h2>
 							
 							<div class="feature-head">
+								
 								<?php 
 									if ( has_post_thumbnail() ) :
 										    the_post_thumbnail();

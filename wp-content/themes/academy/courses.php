@@ -31,7 +31,16 @@
 						<!-- Single Course -->
 						<div class="single-course">
 							<div class="course-head overlay">
-								<img src="<?= $image['url']; ?>" alt="#">
+								<div class="feature-head">
+									<?php 
+										if ( has_post_thumbnail() ) :
+											    the_post_thumbnail();
+										else : 
+									?>
+										<img src="<?php bloginfo('template_directory'); ?>/images/no-image.jpg" />
+										
+									<?php endif; ?>
+								</div>
 								<a href="<?php the_permalink();?>" class="btn"><i class="fa fa-link"></i></a>
 							</div>
 							<div class="single-content">

@@ -25,7 +25,15 @@
 								<!-- <a href="#"><i class="fa fa-bolt"></i>Learning</a> -->
 							</div>
 							<h2 class="blog-title"><a href="#"><?php the_title(); ?></a></h2>
-							<img src="<?php echo $image['url']; ?>" style="width: 100%; margin-bottom: 20px;">
+							
+							<div class="feature-head">
+								<?php 
+									if ( has_post_thumbnail() ) :
+										    the_post_thumbnail();
+									endif;
+								?>
+							</div> <br />
+
 							<?php the_content(); ?>
 						</div>
 

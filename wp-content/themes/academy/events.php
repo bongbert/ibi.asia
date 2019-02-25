@@ -31,7 +31,17 @@
 						<!-- Single Event -->
 						<div class="single-event">
 							<div class="head overlay">
-								<img src="<?= $image['url']; ?>" alt="#">
+								<div class="feature-head">
+									<?php 
+										if ( has_post_thumbnail() ) :
+											    the_post_thumbnail();
+										else : 
+									?>
+										<img src="<?php bloginfo('template_directory'); ?>/images/no-image.jpg" />
+										
+									<?php endif; ?>
+								</div>
+
 								<a href="<?php the_permalink(); ?>" data-fancybox="photo" class="btn"><i class="fa fa-search"></i></a>
 							</div>
 							<div class="event-content">

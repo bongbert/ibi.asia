@@ -34,7 +34,16 @@
 					<div class="col-lg-3 col-md-6 col-12 wow fadeIn" data-wow-delay="<?= $i; ?>s">
 						<!-- Single Team -->
 						<div class="single-team">
-							<img src="<?= $image['url']; ?>" alt="#">
+							<div class="feature-head">
+								<?php 
+									if ( has_post_thumbnail() ) :
+										    the_post_thumbnail();
+									else : 
+								?>
+									<img src="<?php bloginfo('template_directory'); ?>/images/no-image.jpg" />
+									
+								<?php endif; ?>
+							</div>
 							<div class="team-hover">
 								<h4><a class="block-professor-title" href="<?php the_permalink(); ?>"><?php the_title(); ?></a><span><?php the_field('professor_title'); ?></span></h4>
 								<p>

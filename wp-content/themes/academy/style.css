@@ -2135,7 +2135,10 @@ width: 100%;
 	border-left: 2px solid transparent;
 	margin-bottom: 20px;
 }
-.learnedu-sidebar .single-widget.categories ul{}
+.learnedu-sidebar .single-widget.categories ul{
+	list-style: none;
+}
+
 .learnedu-sidebar .single-widget.categories ul li {
 	margin-bottom: 15px;
 	border-bottom: 1px solid #e6e6e6;

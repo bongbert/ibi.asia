@@ -31,13 +31,37 @@
 								?>
 
 							</div><br />
-
+							
 							<?php the_content(); ?>
+							<br />
+
+								<div class="panel-group" id="accordion">
+							<?php 
+								$i = 0;
+								if( have_rows('text_repeater') ):
+
+							    while ( have_rows('text_repeater') ) : the_row();
+							    	$i++;
+							?>
+
+									<div class="panel-title">
+										<div class="panel-heading">
+											<a data-toggle="collapse" data-parent="#accordion" href="#collapse-<?= $i; ?>">
+												<i class="fa fa-hand-o-right" aria-hidden="true"></i> <?php the_sub_field('text_title'); ?></a>
+										</div>
+										<div id="collapse-<?= $i; ?>" class="panel-collapse collapse in">
+											<div class="panel-body"><?php the_sub_field('text_description'); ?></div>
+										</div>
+									</div>
+							    
+							<?php endwhile; endif; ?>
+								</div>
+
 						</div>
-						
 					</div>
 				</div>
 				<?php endwhile; ?>
+
 					
 				<?php get_sidebar(); ?>
 

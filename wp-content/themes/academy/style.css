@@ -3015,7 +3015,9 @@ input#search {
 .image-partner {
 	width: 70% !important;
 }
-
+div.text-editor, div#text-editor {
+	height: 200px !important;
+}
 /*.owl-carousel .owl-item {
     position: relative;
     min-height: 1px;
@@ -3029,3 +3031,19 @@ input#search {
     user-select: none;
     width: 150px !important;
 }*/
+
+.panel-title {
+    background: #f9f9f9;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #e0e0e0;
+}
+.panel-heading {
+    padding-bottom: 5px;
+    /* border-bottom: 1px solid #ccc; */
+}
+.panel-body {
+    background: #fff;
+    padding: 5px;
+}

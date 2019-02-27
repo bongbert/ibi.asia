@@ -32,7 +32,7 @@
 
 							</div><br />
 							
-							<?php the_content(); ?>
+							<?php the_field('content'); ?>
 							<br />
 
 								<div class="panel-group" id="accordion">
@@ -57,6 +57,7 @@
 							<?php endwhile; endif; ?>
 								</div>
 
+							<?php the_content(); ?>
 						</div>
 					</div>
 				</div>

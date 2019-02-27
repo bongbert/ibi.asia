@@ -173,6 +173,7 @@ body {
 }
 .header .nav li .sub-menu {
 	background: #fff;
+	list-style: none;
 	width: 300px;
 	position: absolute;
 	left: 0;

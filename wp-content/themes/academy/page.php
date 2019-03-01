@@ -54,9 +54,9 @@
 										</div>
 									</div>
 							    
-							<?php endwhile; endif; ?>
-								</div>
-
+								<?php endwhile; endif; ?>
+							</div> <br />
+						
 							<?php the_content(); ?>
 						</div>
 					</div>
